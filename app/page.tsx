@@ -66,7 +66,6 @@ export default function BioLinksPage() {
   ];
 
   return (
-    <GeoBlocker>
       <div
         className="min-h-screen bg-[#0b0c0a] text-white relative overflow-hidden"
         dir="rtl"
@@ -156,6 +155,5 @@ export default function BioLinksPage() {
       </div>
       <Captca/>
     </div>
-    </GeoBlocker>
   );
 }
